@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/stream_icon" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+        <SeekBar android:id="@id/seekbar" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="1.0" style="?android:attr/seekBarStyle" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/stream_volume_fraction" android:layout_width="50.0dip" android:layout_height="45.0dip" android:text="@string/fraction_eico" android:singleLine="true" android:layout_alignParentRight="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/stream_volume_divider" android:background="@drawable/dialog_divider_horizontal_holo_dark_eico" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+</LinearLayout>

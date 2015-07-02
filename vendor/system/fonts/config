@@ -1,0 +1,32 @@
+{"flag": "default", "name": null, "family": ["sans-serif", "arial", "helvetica", "tahoma", "verdana"], "file": ["Roboto-Regular.ttf", "Roboto-Bold.ttf", "Roboto-Italic.ttf", "Roboto-BoldItalic.ttf"]}
+{"flag": null, "name": null, "family": ["sans-serif-light"], "file": ["Roboto-Light.ttf", "Roboto-LightItalic.ttf"]}
+{"flag": null, "name": null, "family": ["sans-serif-thin"], "file": ["Roboto-Thin.ttf", "Roboto-ThinItalic.ttf"]}
+{"flag": null, "name": null, "family": ["sans-serif-condensed"], "file": ["RobotoCondensed-Regular.ttf", "RobotoCondensed-Bold.ttf", "RobotoCondensed-Italic.ttf", "RobotoCondensed-BoldItalic.ttf"]}
+{"flag": null, "name": null, "family": ["serif", "times", "times new roman", "palatino", "georgia", "baskerville", "goudy", "fantasy", "cursive", "ITC Stone Serif"], "file": ["DroidSerif-Regular.ttf", "DroidSerif-Bold.ttf", "DroidSerif-Italic.ttf", "DroidSerif-BoldItalic.ttf"]}
+{"flag": null, "name": null, "family": ["Droid Sans"], "file": ["DroidSans.ttf", "DroidSans-Bold.ttf"]}
+{"flag": null, "name": null, "family": ["monospace", "courier", "courier new", "monaco"], "file": ["DroidSansMono.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["DroidNaskh-Regular.ttf"], "variant": "elegant"}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["DroidNaskhUI-Regular.ttf"], "variant": "compact"}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["DroidSansEthiopic-Regular.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["DroidSansHebrew-Regular.ttf", "DroidSansHebrew-Bold.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["DroidSansThai.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["DroidSansArmenian.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["DroidSansGeorgian.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["DroidSansDevanagari-Regular.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["DroidSansTamil-Regular.ttf", "DroidSansTamil-Bold.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["NotoSansMalayalam-Regular.ttf", "NotoSansMalayalam-Bold.ttf"], "variant": "elegant"}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["NotoSansMalayalamUI-Regular.ttf", "NotoSansMalayalamUI-Bold.ttf"], "variant": "compact"}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["NotoSansBengali-Regular.ttf", "NotoSansBengali-Bold.ttf"], "variant": "elegant"}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["NotoSansBengaliUI-Regular.ttf", "NotoSansBengaliUI-Bold.ttf"], "variant": "compact"}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["NotoSansTelugu-Regular.ttf", "NotoSansTelugu-Bold.ttf"], "variant": "elegant"}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["NotoSansTeluguUI-Regular.ttf", "NotoSansTeluguUI-Bold.ttf"], "variant": "compact"}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["NotoSansKannada-Regular.ttf", "NotoSansKannada-Bold.ttf"], "variant": "elegant"}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["NotoSansKannadaUI-Regular.ttf", "NotoSansKannadaUI-Bold.ttf"], "variant": "compact"}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["NanumGothic.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["AndroidEmoji.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["kmx_patch.ttf"]}
+{"flag": "fallback_optional", "name": "工美萌萌", "family": ["gm_mengmeng"], "file": ["kmx_mengmeng_ttf.le"]}
+{"flag": "fallback_optional", "name": "工美精楷", "family": ["gm_jingkai"], "file": ["kmx_jingkai_ttf.le"]}
+{"flag": "fallback_optional", "name": "工美细黑", "family": ["gm_xihei"], "file": ["kmx_xihei_gbk_ttf.le"]}
+{"flag": "zh_baseline", "name": null, "family": ["fallback"], "file": ["DroidSansFallback.ttf"]}
+{"flag": "fallback_normal", "name": null, "family": [], "file": ["MTLmr3m.ttf"], "lang": "ja"}

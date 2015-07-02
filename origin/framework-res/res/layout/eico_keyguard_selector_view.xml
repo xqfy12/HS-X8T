@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardSelectorView android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/eico_keyguard_selector_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_slide_unlock" android:layout_maxHeight="@dimen/keyguard_security_height" android:layout_maxWidth="620.0dip"
+  xmlns:prvandroid="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" layout="@layout/keyguard_message_area" />
+        <View android:id="@id/keyguard_selector_view_frame" android:background="@drawable/kg_bouncer_bg_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/keyguard_unlock_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip">
+            <include layout="@layout/eico_keyguard_glow_pad_view" />
+        </FrameLayout>
+        <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" layout="@layout/keyguard_unread_message" />
+        <include android:layout_gravity="bottom|left|center" android:id="@id/keyguard_selector_fade_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_eca" />
+    </FrameLayout>
+</com.android.internal.policy.impl.keyguard.KeyguardSelectorView>

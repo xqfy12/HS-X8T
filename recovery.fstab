@@ -1,0 +1,19 @@
+/dev/block/platform/sdhci-pxav3.2/by-name/MRD                 /mrd            emmc            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/MRD1                /mrd1           emmc            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/DTIM                /dtim           emmc            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/recovery            /recovery       emmc            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/bootloader          /bootloader     emmc            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/boot                /boot           emmc            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/system              /system         ext4            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/misc                /misc           emmc            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/radio               /radio          emmc            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/NVM                 /nvm            ext4            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/cache               /cache          ext4            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/userdata            /data           ext4            rw,noatime,nodev,nodiratime      wait,length=-16384
+
+/dev/block/platform/sdhci-pxav3.0/by-num/p1                   /sdcard         vfat            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.0/by-num/p1                   /mnt/sdcard     vfat            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/userdata            /storage/sdcard1         ext4            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.0/by-num/p1                   /storage/sdcard0         vfat            rw,noatime,nodev,nodiratime      wait
+/dev/block/mmcblk0boot0                /obm            ext4            rw,noatime,nodev,nodiratime      wait
+/dev/block/platform/sdhci-pxav3.2/by-name/NVM                 /nvg            ext4            rw,noatime,nodev,nodiratime      wait

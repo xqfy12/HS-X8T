@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardUnreadInfo android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/unread_msg_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/eico_kegyuard_unread_message" />
+    <TextView android:textSize="24.0px" android:id="@id/unread_message" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/unread_msg_img" />
+    <ImageView android:id="@id/unread_call_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:src="@drawable/eico_kegyuard_missed_call" />
+    <TextView android:textSize="24.0px" android:id="@id/miss_call" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/unread_call_img" />
+</com.android.internal.policy.impl.keyguard.KeyguardUnreadInfo>

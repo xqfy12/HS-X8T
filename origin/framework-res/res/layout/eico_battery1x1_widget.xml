@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.BatteryMonitor android:gravity="center" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/battery_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <com.android.internal.policy.impl.keyguard.FlowView android:id="@id/battery_top_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/battery_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/remained_power" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/eico_circle" />
+        </FrameLayout>
+    </LinearLayout>
+</com.android.internal.policy.impl.keyguard.BatteryMonitor>
